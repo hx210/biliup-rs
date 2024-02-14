@@ -36,7 +36,7 @@ jobs:
         - build: aarch64-linux
           os: ubuntu-latest
           rust: stable
-          target: aarch64-unknown-linux-gnu
+          target: aarch64-unknown-linux-musl
           cross: true
         - build:  arm-linux
           os: ubuntu-latest
